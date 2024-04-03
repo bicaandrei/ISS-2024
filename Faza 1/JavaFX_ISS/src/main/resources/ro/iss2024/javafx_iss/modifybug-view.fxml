@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.iss2024.javafx_iss.ModifybugView">
+   <children>
+      <TextField layoutX="226.0" layoutY="92.0" />
+      <TextField layoutX="227.0" layoutY="153.0" />
+      <ComboBox layoutX="227.0" layoutY="210.0" prefWidth="150.0" />
+      <Button layoutX="275.0" layoutY="268.0" mnemonicParsing="false" text="Modify" />
+      <Label layoutX="288.0" layoutY="65.0" text="Title" />
+      <Label layoutX="272.0" layoutY="125.0" text="Description" />
+      <Label layoutX="288.0" layoutY="192.0" text="Status" />
+   </children>
+</AnchorPane>
